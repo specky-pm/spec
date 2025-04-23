@@ -2,7 +2,7 @@
 
 This repository contains the technical specification for Specky, a tool for creating, sharing, and downloading component specifications for application development.
 
-[Overview of Specky](specky-overview.md)
+[Overview of Specky](docs/specky-overview.md)
 
 ## What is Specky?
 
@@ -32,7 +32,7 @@ component-name/
 
 The `spec.json` file is the heart of every Specky component specification. It contains:
 
-[Detailed spec.json specification](specky-spec-json.md)
+[Detailed spec.json specification](docs/specky-spec-json.md)
 
 - **Metadata**: Name, version, description, author information
 - **Dependencies**: References to other component specifications
@@ -45,7 +45,7 @@ This file serves as the package manifest and defines how Specky should handle th
 
 The `component.md` file contains the actual functional requirements and detailed description of the component. Written in Markdown, it:
 
-[Detailed component.md specification](specky-component-md.md)
+[Detailed component.md specification](docs/specky-component-md.md)
 
 - Describes what the component should do
 - Defines functional requirements in a language-agnostic way
@@ -56,7 +56,7 @@ The `component.md` file contains the actual functional requirements and detailed
 
 The `datamodel.json` file defines the data entities and their attributes that the component works with. It:
 
-[Detailed datamodel.json specification](specky-datamodel-json.md)
+[Detailed datamodel.json specification](docs/specky-datamodel-json.md)
 
 - Specifies entities, attributes, and relationships
 - Provides a clear data model for implementation
@@ -66,7 +66,7 @@ The `datamodel.json` file defines the data entities and their attributes that th
 
 The `features/` directory contains Gherkin feature specifications that define tests for the component:
 
-[Detailed features/ directory specification](specky-features-directory.md)
+[Detailed features/ directory specification](docs/specky-features-directory.md)
 
 - Uses Gherkin v6 syntax for human-readable behavior descriptions
 - Defines expected behavior through concrete examples
@@ -97,4 +97,4 @@ For information on contributing to the Specky specification, please see the docu
 
 ## Command Line Interface
 
-For information about the Specky Package Manager (spm) command line interface, see the [man page](specky-man-page.md).
+For information about the Specky Package Manager (spm) command line interface, see the [man page](docs/specky-man-page.md).
